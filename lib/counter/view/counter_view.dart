@@ -29,6 +29,7 @@ class CounterVeiw extends StatelessWidget {
                     context.read<CounterCubit>().increment();
                   },
                 ),
+                const SizedBox(height: 20),
                 FloatingActionButton(
                   child: const Icon(Icons.remove),
                   onPressed: () {
